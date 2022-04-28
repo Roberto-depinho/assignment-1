@@ -1,0 +1,94 @@
+.navbar-brand img {
+  width: 92px;
+  height: 70px;
+  align-content: left;
+}
+
+#banner-button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #db1e36;
+  background-color: #fff;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+#banner {
+  text-align: center;
+  position: relative;
+  min-height: 444px;
+  background-size: 100% 100%;
+  background-image: url("images/banner.jpg");
+}
+footer {
+  background-color: #cecece;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+}
+footer p {
+  align-items: center;
+}
+
+#about {
+  font-size: 36px;
+  color: #d52037;
+  font-weight: 600;
+  text-decoration: underline black;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+#contact {
+  font-size: 36px;
+  color: #d52037;
+  font-weight: 600;
+  text-decoration: underline black;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+#buttonpara {
+  color: #d52037;
+}
+
+.form-group .form-control {
+  background-color: #e4e4e4;
+  font-style: italic;
+}
+
+#submitbutton {
+  background-color: #db1e36;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.modal {
+  color: #4d4d4d;
+}
+.modal-header {
+  background-color: #db1e36;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav-item .nav-link {
+  border-right: 1px solid #4d4d4d;
+  line-height: 22px;
+}
